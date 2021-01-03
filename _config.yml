@@ -1,2 +1,6 @@
 exclude:
-  README.md
+  - "README.md"
+defaults:
+  -
+    values:
+      twitter_username: "PaintBrushMike"

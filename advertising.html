@@ -1,5 +1,6 @@
 ---
 title: Advertising Illustration
+description: Michael Terry has been creating commercial illustration for over 40 years, and has worked for some big clients in the past.
 ---
 <!DOCTYPE html>
 <html>
@@ -7,25 +8,23 @@ title: Advertising Illustration
         <title>Michael Terry :: {{ page.title }}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <meta name="copyright" content=""/><!--Can remove if nes-->
-        <meta name="description" content="Michael Terry has been creating commercial illustration for over 40 years, and has worked for some big clients in the past."/>
+        <meta name="description" content=""/>
         <meta name="keywords" content="" />
         <meta name="robots" content="index,follow" />
         <meta name=viewport content="width=device-width, initial-scale=1">
 
-        <!--Graph
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Michael Terry :: {{ page.title }}" />
-        <meta property="og:description" content="DESCRIPTION OF PAGE CONTENT" />
+        <meta property="og:description" content="{{ page.description }}" />
         <meta property="og:image" content="LINK TO THE IMAGE FILE" />
         <meta property="og:url" content="PERMALINK" />
-        <meta property="og:site_name" content="SITE NAME" />-->
+        <meta property="og:site_name" content="SITE NAME" />
 
-        <!--Twitter
         <meta name="twitter:title" content="Michael Terry :: {{ page.title }}">
-        <meta name="twitter:description" content="DESCRIPTION OF PAGE CONTENT">
+        <meta name="twitter:description" content="{{ page.description }}">
         <meta name="twitter:image" content="LINK TO IMAGE">
         <meta name="twitter:site" content="@USERNAME">
-        <meta name="twitter:creator" content="@USERNAME">-->
+        <meta name="twitter:creator" content="@{{ page.twitter_username }}">
 
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <link href="css/index.css" rel="stylesheet"/>
@@ -127,7 +126,7 @@ title: Advertising Illustration
         <!--FOOTER START-->
         <div class="lm_footer">
             <div class="lm_footer_inner lm_max_width">
-                <a href="https://twitter.com/paintbrushmike" target="_blank" class="lm_footer_inner_social lm_social_twitter">
+                <a href="https://twitter.com/{{ page.twitter_username }}" target="_blank" class="lm_footer_inner_social lm_social_twitter">
                     <i class="fab fa-twitter"></i>
                 </a>
                 <a href="https://www.facebook.com/miket1947" target="_blank" class="lm_footer_inner_social lm_social_facebook">
