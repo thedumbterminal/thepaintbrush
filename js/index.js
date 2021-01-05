@@ -13,17 +13,16 @@ function showMenu() {
     if (menuElement.style.left === "-100vw" || menuElement.style.left === "") {
         //menuElement.style.top = "calc(0vh + 71px)";
         menuElement.style.left = "0px";
-        const body = document.getElementsByTagName('body')[0].classList.add('lm_overflow_hidden');
+        document.getElementsByTagName('body')[0].classList.add('lm_overflow_hidden');
     }
     else {
         menuElement.style.left = "-100vw";
-        const body = document.getElementsByTagName('body')[0].classList.remove('lm_overflow_hidden');
+        document.getElementsByTagName('body')[0].classList.remove('lm_overflow_hidden');
     }
 }
 
 //SLIDE SHOW
 var slideIndex = 0;
-//showSlides();
 
 function showSlides() {
 
