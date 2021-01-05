@@ -7,7 +7,7 @@ description: Caricatures have always been a strong point for Michael Terry, draw
     <head>
         <title>Michael Terry :: {{ page.title }}</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <meta name="copyright" content=""/><!--Can remove if nes-->
+        <meta name="copyright" content="Michael Terry"/>
         <meta name="description" content=""/>
         <meta name="keywords" content="" />
         <meta name="robots" content="index,follow" />
@@ -34,26 +34,7 @@ description: Caricatures have always been a strong point for Michael Terry, draw
 
     </head>
     <body>
-        <!--masthead-->
-        <div class="lm_masthead_container lm_sticky" id="lm_masthead_container">
-            <nav class="lm_masthead lm_max_width">
-                <div class="lm_mobile"><div class="lm_masthead_icons"><div id="nav-icon1"><span></span><span></span></div></div></div>
-                <div class="lm_masthead_logo"><a href="index.html"><img src="img/logonew.png" alt="Michael Terry"/></a></div>
-            </nav>
-            <div class="lm_menu" id="lm_menu">
-                <nav class="lm_max_width">
-                    <a href="index.html">Michael Terry</a>
-                    <a href="advertising.html">Advertising</a>
-                    <a href="caricatures.html">Caricatures</a>
-                    <a href="childrens_books.html">Children's books</a>
-                    <a href="editorial.html">Editorial</a>
-                    <a href="fine_art.html">Fine art</a>
-                    <a href="shop.html">Shop</a>
-                </nav>
-                
-            </div>
-        </div>
-        <!--End of masthead-->
+        {% include masthead.html %}
         <!--container-->
         <div class="lm_container">
             
@@ -132,23 +113,6 @@ description: Caricatures have always been a strong point for Michael Terry, draw
                 </div>
             </div>
         </div>
-        <!--FOOTER START-->
-        <div class="lm_footer">
-            <div class="lm_footer_inner lm_max_width">
-                <a href="https://twitter.com/{{ page.twitter_username }}" target="_blank" class="lm_footer_inner_social lm_social_twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.facebook.com/miket1947" target="_blank" class="lm_footer_inner_social lm_social_facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/paintbrushmike/" target="_blank" class="lm_footer_inner_social lm_social_linked">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://logicmodule.io" target="_blank" class="lm_footer_inner_social lm_social_logicmodule">
-                    <i class="fad fa-cogs"></i>
-                </a>
-            </div>
-        </div> 
-        <!--FOOTER END-->
+        {% include footer.html %}
     </body>
 </html>
