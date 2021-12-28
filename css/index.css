@@ -96,6 +96,29 @@ a:hover{color:#43cb83}
 
 .lm_image_grid{display:flex;flex-flow:row wrap;}
 .lm_image_block{width:100%;text-align: center;padding:60px 20px 20px 20px;}
+
+.lm_image_block img{
+	margin: 3px;
+	height: 120px;
+}
+
+.lm_image_block div.shop{
+	background: linear-gradient(to bottom,#f4f2ed 0,#efdeb3 6%,#e8bb4a 100%);
+	padding: 3px;
+	width: 130px;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.lm_image_block div.shop span{
+	background-image: url(//wms-eu.amazon-adsystem.com/panda/20070822/US/img/cart.gif);
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	height: 25px;
+	vertical-align: middle;
+	display: table-cell;
+}
+
 .lm_image_block_img{width:100%;padding-top: 100%;position:relative;margin-bottom: 10px;}
 .lm_image_block_img_bg{position: absolute;top:0px;left:0px;width:100%;height:100%;background-position: center;background-repeat: no-repeat;background-size: contain;overflow: hidden;}
 

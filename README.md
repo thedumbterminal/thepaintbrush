@@ -14,7 +14,7 @@
 * Install bundler: `gem install bundler`
 * Install gems: `bundler install`
 * Rehash shims: `rbenv rehash`
-* Start the server: `jekyll serve`
+* Start the server: `jekyll serve --livereload`
 
 * Then visit:
 

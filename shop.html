@@ -35,7 +35,6 @@ description: Purchase a variety of bookings illustrated and authored by Micheal 
         {% include masthead.html %}
         <!--container-->
         <div class="lm_container">
-            
             <div class="lm_content_holder lm_max_width">
                 <h2>{{ page.title }}</h2>
                 <p>
@@ -45,106 +44,22 @@ description: Purchase a variety of bookings illustrated and authored by Micheal 
 
             <div class="lm_image_grid lm_max_width">
 
-              <div class="lm_image_block">
-                  The Selfish Crocodile<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=B00ATLUJG0&asins=B00ATLUJG0&linkId=10296108bb37fdc49f877cb8767cb396&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066C0&bg_color=FFFFFF"></iframe>
-              </div>
+                {% assign books_sorted = site.data.books | sort: 'title' %}
+                {% for book in books_sorted %}
+                    <div class="lm_image_block">
+                        <a target="_blank" href="{{ book.shop_url }}">
+                            {{ book.title }}<br>
+                            <img src="{{ book.image_url }}"/>
+                            <div class="shop">
+                                <span>Shop Now</span>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
 
-              <div class="lm_image_block">
-                  The Slightly Naughty Vikings<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=B06XFZQCWH&asins=B06XFZQCWH&linkId=af5927ba5745091a1b5b8f30b854f2c2&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Robot and the Seed<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=B01MRVB54V&asins=B01MRVB54V&linkId=755ba5de324c69504753743ec5abdcf8&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  How to Draw Caricatures<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=B00E2S0WQI&asins=B00E2S0WQI&linkId=24c70092ec70e8565229f59115092372&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Captain Wag the Pirate Dog<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0747588953&asins=0747588953&linkId=f69aeb3ea8953c7ebdf0c6d27a45919f&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Captain Wag and the Polar Bears<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0747597820&asins=0747597820&linkId=81a0c3176bbdddbe4c1acf07cafbc14c&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Captain Wag and the Big Blue Whale<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0747592543&asins=0747592543&linkId=2d336834d9935a66d7041e69030585d4&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Rhino's Horns<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0747555346&asins=0747555346&linkId=6cee2f4a071efb2302f166de2072b11c&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  How to Draw: Leprechauns<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=1844484165&asins=1844484165&linkId=4c3901084bb70b5314f216fd7dc118db&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Squeak, Squeak, Take a Peek!<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=1845064046&asins=1845064046&linkId=82838c3205030b37d24626e429cda8b2&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  Growl, Growl, on the Prowl!<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=1845064038&asins=1845064038&linkId=ab35a4b78420a3d39671f443bfcbe8e0&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  The Snow Flake Maker<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=B07MFMDGX8&asins=B07MFMDGX8&linkId=dd402d39abbfe2b01b95d4bc263c3710&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  The Rug Bear<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=1838590781&asins=1838590781&linkId=b1e68aeffcd977ce7d5aba3c4ec29311&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  The Gossipy Parrot<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0747564892&asins=0747564892&linkId=82f463eabaa8e839edf399e221df189f&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  The Great Tortoise and Hare Counting Race<br>
-                  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//ws-eu.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&OneJS=1&Operation=GetAdHtml&MarketPlace=GB&source=ac&ref=tf_til&ad_type=product_link&tracking_id=thepaintbrush-21&marketplace=amazon&amp;region=GB&placement=0545831067&asins=0545831067&linkId=2b30587485587bdc9da5439d732b8dba&show_border=false&link_opens_in_new_window=false&price_color=333333&title_color=0066c0&bg_color=ffffff"></iframe>
-              </div>
-
-              <div class="lm_image_block">
-                  See the Sea!: A Book about Colors<br>
-              </div>
-
-              <div class="lm_image_block">
-                  Here Comes the Crocodile<br>
-              </div>
-
-              <div class="lm_image_block">
-                  What's More Scary Than A Shark?<br>
-              </div>
-
-              <div class="lm_image_block">
-                  Dog Tails<br>
-              </div>
-
-              <div class="lm_image_block">
-                  The Selfish Crocodile and other animals<br>
-              </div>
-
-              <div class="lm_image_block">
-                  The Lonely Giraffe<br>
-              </div>
             </div>
         </div>
+
         {% include footer.html %}
     </body>
 </html>
