@@ -136,5 +136,11 @@
     "image_url": "https://m.media-amazon.com/images/I/41b1nMP22LL._SL500_.jpg",
     "shop_url": "https://www.amazon.co.uk/gp/product/1582347948/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=1582347948&linkId=2d16dbea32343b5881289251d3deadc1",
     "web_image_path": "/img/shop/books/the_sulky_vulture.jpg"
+  },
+  {
+    "title": "Little Hotchpotch",
+    "image_url": "https://m.media-amazon.com/images/I/31ilDUzOSsL._SL500_.jpg",
+    "shop_url": "https://www.amazon.co.uk/gp/product/0747550336/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=0747550336&linkId=0d303391208d2e545cff706c464cbc01",
+    "web_image_path": "/img/shop/books/little_hotchpotch.jpg"
   }
 ]
