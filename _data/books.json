@@ -99,9 +99,19 @@
 		"image_url": "https://m.media-amazon.com/images/I/51lHOwxErqL._SL500_.jpg",
 		"shop_url": "https://www.amazon.co.uk/gp/product/0747571449/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=0747571449&linkId=f3be60e121d0fb2225521a4f28b032fe"
 	},
-	{
-		"title": "Crunch Munch Dinosaur Lunch!",
-		"image_url": "https://m.media-amazon.com/images/I/51JUMgLPp-L._SL500_.jpg",
-		"shop_url": "https://www.amazon.co.uk/gp/product/1845069870/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=1845069870&linkId=5b469c5d2c4045c23a4d656dfa19e0e5"
-	}
+  {
+    "title": "Crunch Munch Dinosaur Lunch!",
+    "image_url": "https://m.media-amazon.com/images/I/51JUMgLPp-L._SL500_.jpg",
+    "shop_url": "https://www.amazon.co.uk/gp/product/1845069870/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=1845069870&linkId=5b469c5d2c4045c23a4d656dfa19e0e5"
+  },
+  {
+    "title": "Ellie and Elvis",
+    "image_url": "https://m.media-amazon.com/images/I/51ZSTE8XTYL._SL500_.jpg",
+    "shop_url": "https://www.amazon.co.uk/gp/product/074758267X/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=074758267X&linkId=79c2eeec016c74638fc7288095b26cf8"
+  },
+  {
+    "title": "The Sulky Vulture",
+    "image_url": "https://m.media-amazon.com/images/I/41b1nMP22LL._SL500_.jpg",
+    "shop_url": "https://www.amazon.co.uk/gp/product/1582347948/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=1582347948&linkId=2d16dbea32343b5881289251d3deadc1"
+  }
 ]
