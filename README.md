@@ -15,7 +15,14 @@
 * Install gems: `bundler install`
 * Rehash shims: `rbenv rehash`
 * Start the server: `jekyll serve --livereload`
-
 * Then visit:
 
 [http://localhost:4000/](http://localhost:4000/)
+
+## Shop books
+
+To download all the images in the `_data/books.json` and save them locally run:
+
+````
+ruby scripts/create_book_images.rb
+````

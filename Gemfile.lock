@@ -5,6 +5,8 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
+    down (5.2.4)
+      addressable (~> 2.8)
     em-websocket (0.5.2)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -33,6 +35,7 @@ GEM
       sassc (> 2.0.1, < 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
+    json (2.6.1)
     kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -63,7 +66,9 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  down
   jekyll
+  json
 
 RUBY VERSION
    ruby 2.7.2p137
