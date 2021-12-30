@@ -87,7 +87,7 @@ a:hover{color:#43cb83}
 .lm_content_holder img{width:100%;}
 
 .lm_profile_block{float:right;margin-left: 20px; margin-bottom:20px;width:50%;text-align: center;}
-.lm_profile_block_img{width:150px;height:150px;border-radius: 50%;overflow:hidden;background-image: url('../img/miketerry.jpeg');background-repeat: no-repeat;background-size: contain;background-position: center;margin:0px auto;margin-bottom:10px;}
+.lm_profile_block_img{width:150px;height:150px;border-radius: 50%;overflow:hidden;background-image: url('/img/miketerry.jpeg');background-repeat: no-repeat;background-size: contain;background-position: center;margin:0px auto;margin-bottom:10px;}
 
 .lm_service_grid{display:flex;flex-flow:row wrap;}
 .lm_service_block{width:100%;text-align: center;padding:60px 20px 20px 20px;}
@@ -111,7 +111,7 @@ a:hover{color:#43cb83}
 }
 
 .lm_image_block div.shop span{
-	background-image: url(//wms-eu.amazon-adsystem.com/panda/20070822/US/img/cart.gif);
+	background-image: url(/img/amazon_cart.gif);
 	background-repeat: no-repeat;
 	padding-left: 30px;
 	height: 25px;
