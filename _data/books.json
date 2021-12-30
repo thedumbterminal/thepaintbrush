@@ -154,5 +154,11 @@
     "image_url": "https://m.media-amazon.com/images/I/51-U5B5QYDL._SL500_.jpg",
     "shop_url": "https://www.amazon.co.uk/gp/product/B004606T8M/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=B004606T8M&linkId=c1249e197f967d5e6b003b801178f49b",
     "web_image_path": "/img/shop/books/harrys_mad.jpg"
+  },
+  {
+    "title": "Poppet",
+    "image_url": "https://m.media-amazon.com/images/I/51Ajr6WESCL._SL500_.jpg",
+    "shop_url": "https://www.amazon.co.uk/gp/product/B07NZZN7BQ/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=B07NZZN7BQ&linkId=f862ef032afc7b63f67e6779c1a28d87",
+    "web_image_path": "/img/shop/books/poppet.jpg"
   }
 ]
