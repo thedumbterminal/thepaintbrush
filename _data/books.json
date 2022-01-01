@@ -160,5 +160,14 @@
     "image_url": "https://m.media-amazon.com/images/I/51Ajr6WESCL._SL500_.jpg",
     "shop_url": "https://www.amazon.co.uk/gp/product/B07NZZN7BQ/ref=as_li_tl?ie=UTF8&tag=thepaintbru00-21&camp=1634&creative=6738&linkCode=as2&creativeASIN=B07NZZN7BQ&linkId=f862ef032afc7b63f67e6779c1a28d87",
     "web_image_path": "/img/shop/books/poppet.jpg"
+  },
+  {
+    "title": "Animal Stories",
+    "image_url": "https://images-na.ssl-images-amazon.com/images/I/51RTB8S7C5L._SX363_BO1,204,203,200_.jpg",
+    "shop_url": "https://www.amazon.co.uk/Animal-Stories-Mini-Dick-King-Smith/dp/0670893528/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr=",
+    "web_image_path": "/img/shop/books/animal_stories.jpg"
   }
+
+
+
 ]
